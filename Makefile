@@ -9,4 +9,8 @@ $(icondir)/icon-%.png:
 
 icons: $(iconfiles)
 
+package:
+	rm -f extension.zip
+	zip -r -j extension.zip extension/*
+
 .PHONY: icons
