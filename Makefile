@@ -13,4 +13,4 @@ package:
 	rm -f extension.zip
 	zip -r -j extension.zip extension/*
 
-.PHONY: icons
+.PHONY: icons package
